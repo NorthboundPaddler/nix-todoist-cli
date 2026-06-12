@@ -2,6 +2,8 @@
 
 Nix flake for the official [Todoist CLI](https://github.com/Doist/todoist-cli).
 
+**Note:** This packaging project is not affiliated with Doist or the Todoist brand in any way.
+
 ## Usage
 
 ### Build
@@ -63,3 +65,7 @@ Then run `nix build` again.
 
 - The `td` binary is a wrapper that invokes Node.js with the CLI entry point
 - Platform support is Linux x86_64 only (native modules in `@napi-rs/keyring`)
+
+---
+
+*Created with AI assistance.*
